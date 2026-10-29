@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastries - Sweet Treats Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Fresh and Tasty Pastries</h1>
+    <p>A Little Sweetness in Every Bite!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="cakes.html">Cakes</a>
+    <a href="pastries.html">Pastries</a>
+    <a href="cookies.html">Cookies</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h2>Our Pastries</h2>
+
+<section class="products">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+             alt="Cream pastry">
+        <h3>Cream Pastry</h3>
+        <p>Soft and tasty cream pastry.</p>
+        <p class="price">₹80</p>
+        <button onclick="order('Cream Pastry')">Order Now</button>
+    </div>
+</section>
+
+<footer>
+    <p>Sweet Treats Bakery</p>
+    <p>Main Road, Vijayawada</p>
+    <p>© 2026 Sweet Treats Bakery</p>
+</footer>
+
+<script>
+function order(product) {
+    alert("Thank you! You selected " + product +
+          ". Please contact our bakery to place your order.");
+}
+</script>
+
+</body>
+</html>

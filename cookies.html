@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies - Sweet Treats Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Crunchy and Delicious Cookies</h1>
+    <p>Freshly Baked, Perfectly Crunchy!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="cakes.html">Cakes</a>
+    <a href="pastries.html">Pastries</a>
+    <a href="cookies.html">Cookies</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h2>Our Cookies</h2>
+
+<section class="products">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400"
+             alt="Chocolate chip cookies">
+        <h3>Chocolate Chip Cookies</h3>
+        <p>Crispy cookies with chocolate chips.</p>
+        <p class="price">₹150</p>
+        <button onclick="order('Chocolate Chip Cookies')">Order Now</button>
+    </div>
+</section>
+
+<footer>
+    <p>Sweet Treats Bakery</p>
+    <p>Main Road, Vijayawada</p>
+    <p>© 2026 Sweet Treats Bakery</p>
+</footer>
+
+<script>
+function order(product) {
+    alert("Thank you! You selected " + product +
+          ". Please contact our bakery to place your order.");
+}
+</script>
+
+</body>
+</html>

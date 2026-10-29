@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Sweet Treats Bakery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Sweet Treats Bakery</h1>
+    <p>Freshly Baked with Love!</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="cakes.html">Cakes</a>
+    <a href="pastries.html">Pastries</a>
+    <a href="cookies.html">Cookies</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="offer">
+    <h2>🎉 Special Seasonal Offer!</h2>
+    <p>Get 10% OFF on selected cakes this season!</p>
+</section>
+
+<h2>Welcome to Sweet Treats Bakery</h2>
+<p style="text-align:center;">
+    Discover delicious cakes, fresh pastries, and crunchy cookies.
+</p>
+
+<h2>Our Featured Products</h2>
+
+<section class="products">
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400"
+             alt="Chocolate cake">
+        <h3>Chocolate Cake</h3>
+        <p>Rich and creamy chocolate cake.</p>
+        <p class="price">₹500</p>
+        <button onclick="order('Chocolate Cake')">Order Now</button>
+    </div>
+
+    <div class="card">
+        <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+             alt="Cream pastry">
+        <h3>Pastries</h3>
+        <p>Soft and tasty cream pastries.</p>
+        <p class="price">₹80</p>
+        <button onclick="order('Pastries')">Order Now</button>
+    </div>
+</section>
+
+<h2>Custom Cake Designs</h2>
+<p style="text-align:center;">
+    Order birthday, wedding, and anniversary cakes made for you!
+</p>
+
+<footer>
+    <p>Sweet Treats Bakery</p>
+    <p>Address: Main Road, Vijayawada</p>
+    <p>© 2026 Sweet Treats Bakery</p>
+</footer>
+
+<script>
+function order(product) {
+    alert("Thank you! You selected " + product +
+          ". Please contact our bakery to place your order.");
+}
+</script>
+
+</body>
+</html>
